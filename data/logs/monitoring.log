@@ -1,0 +1,1000 @@
+2026-03-07 21:11:30,987 INFO guardian_baby.main: Starting monitoring session id=sess_20260307_154130 source=0 duration=20s
+2026-03-07 21:11:51,303 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260307_154130.json
+2026-03-07 21:11:51,303 INFO guardian_baby.main: Session result: {'session_id': 'sess_20260307_154130', 'start_time': '2026-03-07T15:41:30.987315+00:00', 'end_time': '2026-03-07T15:41:51.303499+00:00', 'duration_seconds': 20, 'frames_processed': 405, 'subject_detected': False, 'events': [], 'dominant_state': 'unknown', 'final_risk_level': 'low', 'max_risk_score': 0.0, 'explanation': 'No subject was reliably detected during this session. No elevated hazards were detected.', 'snapshot_paths': []}
+2026-03-07 21:11:53,128 INFO guardian_baby.main: Starting monitoring session id=sess_20260307_154153 source=0 duration=20s
+2026-03-07 21:12:13,457 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260307_154153.json
+2026-03-07 21:12:13,458 INFO guardian_baby.main: Session result: {'session_id': 'sess_20260307_154153', 'start_time': '2026-03-07T15:41:53.128313+00:00', 'end_time': '2026-03-07T15:42:13.457432+00:00', 'duration_seconds': 20, 'frames_processed': 401, 'subject_detected': False, 'events': [], 'dominant_state': 'unknown', 'final_risk_level': 'low', 'max_risk_score': 0.0, 'explanation': 'No subject was reliably detected during this session. No elevated hazards were detected.', 'snapshot_paths': []}
+2026-03-07 21:14:48,107 INFO guardian_baby.main: Starting monitoring session id=sess_20260307_154448 source=0 duration=20s
+2026-03-07 21:15:08,418 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260307_154448.json
+2026-03-07 21:15:08,419 INFO guardian_baby.main: Session result: {'session_id': 'sess_20260307_154448', 'start_time': '2026-03-07T15:44:48.107478+00:00', 'end_time': '2026-03-07T15:45:08.418609+00:00', 'duration_seconds': 20, 'frames_processed': 417, 'subject_detected': False, 'events': [], 'dominant_state': 'unknown', 'final_risk_level': 'low', 'max_risk_score': 0.0, 'explanation': 'No subject was reliably detected during this session. No elevated hazards were detected.', 'snapshot_paths': []}
+2026-03-07 22:08:31,076 INFO guardian_baby.main: Starting monitoring session id=sess_20260307_163831 source=0 duration=20s
+2026-03-07 22:08:51,394 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260307_163831.json
+2026-03-07 22:08:51,394 INFO guardian_baby.main: Session result: {'session_id': 'sess_20260307_163831', 'start_time': '2026-03-07T16:38:31.076337+00:00', 'end_time': '2026-03-07T16:38:51.393006+00:00', 'duration_seconds': 20, 'frames_processed': 414, 'subject_detected': False, 'events': [], 'dominant_state': 'unknown', 'final_risk_level': 'low', 'max_risk_score': 0.0, 'explanation': 'No subject was reliably detected during this session. No elevated hazards were detected.', 'snapshot_paths': []}
+2026-03-07 22:29:41,921 INFO guardian_baby.main: Starting monitoring session id=sess_20260307_165941 source=0 duration=20s
+2026-03-07 22:30:02,246 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260307_165941.json
+2026-03-07 22:30:02,246 INFO guardian_baby.main: Session result: {'session_id': 'sess_20260307_165941', 'start_time': '2026-03-07T16:59:41.921302+00:00', 'end_time': '2026-03-07T17:00:02.244982+00:00', 'duration_seconds': 20, 'frames_processed': 403, 'subject_detected': False, 'events': [], 'dominant_state': 'unknown', 'final_risk_level': 'low', 'max_risk_score': 0.0, 'explanation': 'No subject was reliably detected during this session. No elevated hazards were detected.', 'snapshot_paths': []}
+2026-03-07 22:58:57,988 INFO vision.mqtt_stream: Connecting to MQTT broker 192.168.1.24:1883
+2026-03-07 22:58:57,995 INFO guardian_baby.main: MQTT frame consumer started.
+2026-03-07 22:58:57,995 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-07 22:58:59,874 INFO vision.mqtt_stream: MQTT connected. Subscribing to topics.
+2026-03-08 00:47:00,051 ERROR vision.mqtt_stream: failed to receive on socket: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-08 00:47:00,052 WARNING vision.mqtt_stream: MQTT disconnected unexpectedly rc=7; auto-reconnect active.
+2026-03-08 00:47:01,181 INFO vision.mqtt_stream: MQTT connected. Subscribing to topics.
+2026-03-08 00:50:47,645 INFO guardian_baby.main: Stopping backend...
+2026-03-08 00:50:48,041 INFO vision.mqtt_stream: MQTT disconnected cleanly.
+2026-03-08 00:50:48,043 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260307_172857.json
+2026-03-08 00:50:55,328 INFO vision.mqtt_stream: Connecting to MQTT broker 192.168.1.24:1883
+2026-03-08 00:50:55,353 INFO guardian_baby.main: MQTT frame consumer started.
+2026-03-08 00:50:55,353 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-08 00:50:55,355 INFO vision.mqtt_stream: MQTT connected. Subscribing to topics.
+2026-03-08 00:59:09,336 INFO guardian_baby.main: Stopping backend...
+2026-03-08 00:59:09,535 INFO vision.mqtt_stream: MQTT disconnected cleanly.
+2026-03-08 00:59:09,538 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260307_192055.json
+2026-03-08 01:20:52,476 INFO vision.mqtt_stream: Connecting to MQTT broker 192.168.1.24:1883
+2026-03-08 01:20:52,486 INFO guardian_baby.main: MQTT frame consumer started.
+2026-03-08 01:20:52,486 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-08 01:20:52,496 INFO vision.mqtt_stream: MQTT connected. Subscribing to topics.
+2026-03-08 01:44:57,161 ERROR vision.mqtt_stream: failed to receive on socket: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-08 01:44:57,254 WARNING vision.mqtt_stream: MQTT disconnected unexpectedly rc=7; auto-reconnect active.
+2026-03-08 01:44:58,365 INFO vision.mqtt_stream: MQTT connected. Subscribing to topics.
+2026-03-08 02:04:43,335 ERROR vision.mqtt_stream: failed to receive on socket: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-08 02:04:43,475 WARNING vision.mqtt_stream: MQTT disconnected unexpectedly rc=7; auto-reconnect active.
+2026-03-08 02:11:55,569 INFO vision.mqtt_stream: MQTT connected. Subscribing to topics.
+2026-03-08 03:12:34,968 ERROR vision.mqtt_stream: failed to receive on socket: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-08 03:12:34,971 WARNING vision.mqtt_stream: MQTT disconnected unexpectedly rc=7; auto-reconnect active.
+2026-03-08 03:12:35,983 INFO vision.mqtt_stream: MQTT connected. Subscribing to topics.
+2026-03-08 03:29:55,612 INFO guardian_baby.main: Stopping backend...
+2026-03-08 03:29:56,319 INFO vision.mqtt_stream: MQTT disconnected cleanly.
+2026-03-08 03:29:56,327 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260307_195052.json
+2026-03-08 03:32:23,932 INFO processing.frame_worker: Frame worker started.
+2026-03-08 03:32:23,932 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-08 03:32:24,036 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-08 03:32:24,036 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-08 03:32:24,040 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-08 03:32:48,337 INFO guardian_baby.main: Stopping backend...
+2026-03-08 03:32:49,274 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-08 03:32:49,334 INFO processing.frame_worker: Frame worker stopped.
+2026-03-08 03:32:49,335 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260307_220223.json
+2026-03-08 16:31:54,692 INFO processing.frame_worker: Frame worker started.
+2026-03-08 16:31:54,720 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-08 16:31:54,753 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-08 16:31:54,754 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-08 16:31:54,759 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-08 16:32:00,189 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:32:00,191 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110157.051068Z queue_size=0
+2026-03-08 16:32:00,189 INFO processing.frame_worker: Frame worker start frame_id=20260308T110157.051068Z
+2026-03-08 16:32:00,197 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110158_531205+0000_20260308T110157.051068Z.jpg
+2026-03-08 16:32:00,209 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110158_531205+0000_20260308T110157.051068Z.jpg model=gpt-5-nano
+2026-03-08 16:32:04,917 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:32:04,982 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110158_531205+0000_20260308T110157.051068Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:32:08,168 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:32:08,169 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110158_531205+0000_20260308T110157.051068Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:32:08,170 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110158_531205+0000_20260308T110157.051068Z.jpg err=Model output parse failed
+2026-03-08 16:32:08,170 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110157.051068Z
+2026-03-08 16:32:08,252 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110157.051068Z
+2026-03-08 16:32:15,136 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:32:15,137 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110212.051228Z queue_size=0
+2026-03-08 16:32:15,136 INFO processing.frame_worker: Frame worker start frame_id=20260308T110212.051228Z
+2026-03-08 16:32:15,143 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110213_498423+0000_20260308T110212.051228Z.jpg
+2026-03-08 16:32:15,146 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110213_498423+0000_20260308T110212.051228Z.jpg model=gpt-5-nano
+2026-03-08 16:32:18,482 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:32:18,484 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110213_498423+0000_20260308T110212.051228Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:32:21,667 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:32:21,669 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110213_498423+0000_20260308T110212.051228Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:32:21,670 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110213_498423+0000_20260308T110212.051228Z.jpg err=Model output parse failed
+2026-03-08 16:32:21,670 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110212.051228Z
+2026-03-08 16:32:21,708 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110212.051228Z
+2026-03-08 16:32:30,201 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:32:30,201 INFO processing.frame_worker: Frame worker start frame_id=20260308T110227.051394Z
+2026-03-08 16:32:30,201 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110227.051394Z queue_size=0
+2026-03-08 16:32:30,209 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110228_479654+0000_20260308T110227.051394Z.jpg
+2026-03-08 16:32:30,213 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110228_479654+0000_20260308T110227.051394Z.jpg model=gpt-5-nano
+2026-03-08 16:32:33,353 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:32:33,355 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110228_479654+0000_20260308T110227.051394Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:32:37,442 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:32:37,444 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110228_479654+0000_20260308T110227.051394Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:32:37,444 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110228_479654+0000_20260308T110227.051394Z.jpg err=Model output parse failed
+2026-03-08 16:32:37,444 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110227.051394Z
+2026-03-08 16:32:37,480 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110227.051394Z
+2026-03-08 16:32:45,148 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:32:45,148 INFO processing.frame_worker: Frame worker start frame_id=20260308T110242.051529Z
+2026-03-08 16:32:45,150 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110242.051529Z queue_size=0
+2026-03-08 16:32:45,170 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110243_499575+0000_20260308T110242.051529Z.jpg
+2026-03-08 16:32:45,174 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110243_499575+0000_20260308T110242.051529Z.jpg model=gpt-5-nano
+2026-03-08 16:32:48,338 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:32:48,341 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110243_499575+0000_20260308T110242.051529Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:32:52,158 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:32:52,159 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110243_499575+0000_20260308T110242.051529Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:32:52,159 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110243_499575+0000_20260308T110242.051529Z.jpg err=Model output parse failed
+2026-03-08 16:32:52,159 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110242.051529Z
+2026-03-08 16:32:52,166 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110242.051529Z
+2026-03-08 16:33:00,162 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:33:00,163 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110257.051681Z queue_size=0
+2026-03-08 16:33:00,163 INFO processing.frame_worker: Frame worker start frame_id=20260308T110257.051681Z
+2026-03-08 16:33:00,171 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110258_523307+0000_20260308T110257.051681Z.jpg
+2026-03-08 16:33:00,179 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110258_523307+0000_20260308T110257.051681Z.jpg model=gpt-5-nano
+2026-03-08 16:33:04,587 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:33:04,591 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110258_523307+0000_20260308T110257.051681Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:33:08,383 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:33:08,385 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110258_523307+0000_20260308T110257.051681Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:33:08,385 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110258_523307+0000_20260308T110257.051681Z.jpg err=Model output parse failed
+2026-03-08 16:33:08,386 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110257.051681Z
+2026-03-08 16:33:08,422 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110257.051681Z
+2026-03-08 16:33:15,246 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:33:15,246 INFO processing.frame_worker: Frame worker start frame_id=20260308T110312.052043Z
+2026-03-08 16:33:15,247 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110312.052043Z queue_size=0
+2026-03-08 16:33:15,254 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110313_526763+0000_20260308T110312.052043Z.jpg
+2026-03-08 16:33:15,260 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110313_526763+0000_20260308T110312.052043Z.jpg model=gpt-5-nano
+2026-03-08 16:33:19,065 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:33:19,068 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110313_526763+0000_20260308T110312.052043Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:33:21,826 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:33:21,827 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110313_526763+0000_20260308T110312.052043Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:33:21,827 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110313_526763+0000_20260308T110312.052043Z.jpg err=Model output parse failed
+2026-03-08 16:33:21,827 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110312.052043Z
+2026-03-08 16:33:21,834 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110312.052043Z
+2026-03-08 16:33:30,129 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:33:30,130 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110327.052179Z queue_size=0
+2026-03-08 16:33:30,130 INFO processing.frame_worker: Frame worker start frame_id=20260308T110327.052179Z
+2026-03-08 16:33:30,142 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110328_499470+0000_20260308T110327.052179Z.jpg
+2026-03-08 16:33:30,146 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110328_499470+0000_20260308T110327.052179Z.jpg model=gpt-5-nano
+2026-03-08 16:33:35,451 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:33:35,454 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110328_499470+0000_20260308T110327.052179Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:33:38,854 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:33:38,855 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110328_499470+0000_20260308T110327.052179Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:33:38,855 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110328_499470+0000_20260308T110327.052179Z.jpg err=Model output parse failed
+2026-03-08 16:33:38,856 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110327.052179Z
+2026-03-08 16:33:38,866 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110327.052179Z
+2026-03-08 16:33:45,149 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:33:45,150 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110342.052304Z queue_size=0
+2026-03-08 16:33:45,149 INFO processing.frame_worker: Frame worker start frame_id=20260308T110342.052304Z
+2026-03-08 16:33:45,157 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110343_524294+0000_20260308T110342.052304Z.jpg
+2026-03-08 16:33:45,160 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110343_524294+0000_20260308T110342.052304Z.jpg model=gpt-5-nano
+2026-03-08 16:33:49,468 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:33:49,469 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110343_524294+0000_20260308T110342.052304Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:33:52,945 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:33:52,948 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110343_524294+0000_20260308T110342.052304Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:33:52,949 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110343_524294+0000_20260308T110342.052304Z.jpg err=Model output parse failed
+2026-03-08 16:33:52,950 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110342.052304Z
+2026-03-08 16:33:52,958 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110342.052304Z
+2026-03-08 16:34:00,268 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:34:00,268 INFO processing.frame_worker: Frame worker start frame_id=20260308T110357.052474Z
+2026-03-08 16:34:00,269 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110357.052474Z queue_size=0
+2026-03-08 16:34:00,286 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110358_616754+0000_20260308T110357.052474Z.jpg
+2026-03-08 16:34:00,290 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110358_616754+0000_20260308T110357.052474Z.jpg model=gpt-5-nano
+2026-03-08 16:34:03,853 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:34:03,854 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110358_616754+0000_20260308T110357.052474Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:34:08,191 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:34:08,192 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110358_616754+0000_20260308T110357.052474Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:34:08,193 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110358_616754+0000_20260308T110357.052474Z.jpg err=Model output parse failed
+2026-03-08 16:34:08,195 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110357.052474Z
+2026-03-08 16:34:08,198 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110357.052474Z
+2026-03-08 16:34:15,397 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:34:15,398 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110412.052603Z queue_size=0
+2026-03-08 16:34:15,398 INFO processing.frame_worker: Frame worker start frame_id=20260308T110412.052603Z
+2026-03-08 16:34:15,406 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110413_761715+0000_20260308T110412.052603Z.jpg
+2026-03-08 16:34:15,413 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110413_761715+0000_20260308T110412.052603Z.jpg model=gpt-5-nano
+2026-03-08 16:34:18,990 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:34:18,991 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110413_761715+0000_20260308T110412.052603Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:34:21,823 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:34:21,825 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110413_761715+0000_20260308T110412.052603Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:34:21,825 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110413_761715+0000_20260308T110412.052603Z.jpg err=Model output parse failed
+2026-03-08 16:34:21,825 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110412.052603Z
+2026-03-08 16:34:21,832 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110412.052603Z
+2026-03-08 16:34:30,125 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:34:30,128 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110427.052752Z queue_size=0
+2026-03-08 16:34:30,126 INFO processing.frame_worker: Frame worker start frame_id=20260308T110427.052752Z
+2026-03-08 16:34:30,135 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110428_489439+0000_20260308T110427.052752Z.jpg
+2026-03-08 16:34:30,138 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110428_489439+0000_20260308T110427.052752Z.jpg model=gpt-5-nano
+2026-03-08 16:34:34,156 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:34:34,157 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110428_489439+0000_20260308T110427.052752Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:34:37,819 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:34:37,820 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110428_489439+0000_20260308T110427.052752Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:34:37,820 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110428_489439+0000_20260308T110427.052752Z.jpg err=Model output parse failed
+2026-03-08 16:34:37,820 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110427.052752Z
+2026-03-08 16:34:37,825 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110427.052752Z
+2026-03-08 16:34:45,134 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:34:45,134 INFO processing.frame_worker: Frame worker start frame_id=20260308T110442.052872Z
+2026-03-08 16:34:45,134 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110442.052872Z queue_size=0
+2026-03-08 16:34:45,140 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110443_497676+0000_20260308T110442.052872Z.jpg
+2026-03-08 16:34:45,145 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110443_497676+0000_20260308T110442.052872Z.jpg model=gpt-5-nano
+2026-03-08 16:34:48,964 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:34:48,966 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110443_497676+0000_20260308T110442.052872Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:34:52,295 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:34:52,295 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110443_497676+0000_20260308T110442.052872Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:34:52,297 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110443_497676+0000_20260308T110442.052872Z.jpg err=Model output parse failed
+2026-03-08 16:34:52,297 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110442.052872Z
+2026-03-08 16:34:52,307 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110442.052872Z
+2026-03-08 16:35:00,418 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:35:00,418 INFO processing.frame_worker: Frame worker start frame_id=20260308T110457.053004Z
+2026-03-08 16:35:00,418 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110457.053004Z queue_size=0
+2026-03-08 16:35:00,429 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110458_762583+0000_20260308T110457.053004Z.jpg
+2026-03-08 16:35:00,435 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110458_762583+0000_20260308T110457.053004Z.jpg model=gpt-5-nano
+2026-03-08 16:35:03,801 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:35:03,802 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110458_762583+0000_20260308T110457.053004Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:35:06,914 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:35:06,926 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110458_762583+0000_20260308T110457.053004Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:35:06,945 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110458_762583+0000_20260308T110457.053004Z.jpg err=Model output parse failed
+2026-03-08 16:35:06,946 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110457.053004Z
+2026-03-08 16:35:06,955 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110457.053004Z
+2026-03-08 16:35:15,149 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:35:15,149 INFO processing.frame_worker: Frame worker start frame_id=20260308T110512.053138Z
+2026-03-08 16:35:15,149 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110512.053138Z queue_size=0
+2026-03-08 16:35:15,160 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110513_493784+0000_20260308T110512.053138Z.jpg
+2026-03-08 16:35:15,166 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110513_493784+0000_20260308T110512.053138Z.jpg model=gpt-5-nano
+2026-03-08 16:35:19,611 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:35:19,612 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110513_493784+0000_20260308T110512.053138Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:35:22,549 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:35:22,551 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110513_493784+0000_20260308T110512.053138Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:35:22,551 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110513_493784+0000_20260308T110512.053138Z.jpg err=Model output parse failed
+2026-03-08 16:35:22,552 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110512.053138Z
+2026-03-08 16:35:22,563 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110512.053138Z
+2026-03-08 16:35:30,172 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:35:30,172 INFO processing.frame_worker: Frame worker start frame_id=20260308T110527.053268Z
+2026-03-08 16:35:30,173 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110527.053268Z queue_size=0
+2026-03-08 16:35:30,195 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110528_536618+0000_20260308T110527.053268Z.jpg
+2026-03-08 16:35:30,205 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110528_536618+0000_20260308T110527.053268Z.jpg model=gpt-5-nano
+2026-03-08 16:35:34,006 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:35:34,014 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110528_536618+0000_20260308T110527.053268Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:35:37,558 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:35:37,559 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110528_536618+0000_20260308T110527.053268Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:35:37,559 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110528_536618+0000_20260308T110527.053268Z.jpg err=Model output parse failed
+2026-03-08 16:35:37,560 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110527.053268Z
+2026-03-08 16:35:37,597 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110527.053268Z
+2026-03-08 16:35:45,140 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:35:45,142 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110542.053405Z queue_size=0
+2026-03-08 16:35:45,141 INFO processing.frame_worker: Frame worker start frame_id=20260308T110542.053405Z
+2026-03-08 16:35:45,154 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110543_490509+0000_20260308T110542.053405Z.jpg
+2026-03-08 16:35:45,165 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110543_490509+0000_20260308T110542.053405Z.jpg model=gpt-5-nano
+2026-03-08 16:35:48,926 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:35:48,928 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110543_490509+0000_20260308T110542.053405Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:35:51,645 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:35:51,647 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110543_490509+0000_20260308T110542.053405Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:35:51,648 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110543_490509+0000_20260308T110542.053405Z.jpg err=Model output parse failed
+2026-03-08 16:35:51,648 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110542.053405Z
+2026-03-08 16:35:51,682 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110542.053405Z
+2026-03-08 16:36:00,213 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:36:00,213 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110557.053567Z queue_size=0
+2026-03-08 16:36:00,213 INFO processing.frame_worker: Frame worker start frame_id=20260308T110557.053567Z
+2026-03-08 16:36:00,227 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110558_491217+0000_20260308T110557.053567Z.jpg
+2026-03-08 16:36:00,238 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110558_491217+0000_20260308T110557.053567Z.jpg model=gpt-5-nano
+2026-03-08 16:36:03,830 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:36:03,831 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110558_491217+0000_20260308T110557.053567Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:36:07,319 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:36:07,351 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110558_491217+0000_20260308T110557.053567Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:36:07,351 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110558_491217+0000_20260308T110557.053567Z.jpg err=Model output parse failed
+2026-03-08 16:36:07,351 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110557.053567Z
+2026-03-08 16:36:07,362 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110557.053567Z
+2026-03-08 16:36:15,129 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:36:15,129 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110612.053697Z queue_size=0
+2026-03-08 16:36:15,129 INFO processing.frame_worker: Frame worker start frame_id=20260308T110612.053697Z
+2026-03-08 16:36:15,140 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110613_509664+0000_20260308T110612.053697Z.jpg
+2026-03-08 16:36:15,146 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110613_509664+0000_20260308T110612.053697Z.jpg model=gpt-5-nano
+2026-03-08 16:36:18,628 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:36:18,630 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110613_509664+0000_20260308T110612.053697Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:36:21,839 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:36:21,841 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110613_509664+0000_20260308T110612.053697Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:36:21,841 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110613_509664+0000_20260308T110612.053697Z.jpg err=Model output parse failed
+2026-03-08 16:36:21,841 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110612.053697Z
+2026-03-08 16:36:21,850 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110612.053697Z
+2026-03-08 16:36:30,210 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:36:30,210 INFO processing.frame_worker: Frame worker start frame_id=20260308T110627.053864Z
+2026-03-08 16:36:30,211 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110627.053864Z queue_size=0
+2026-03-08 16:36:30,219 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110628_500313+0000_20260308T110627.053864Z.jpg
+2026-03-08 16:36:30,223 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110628_500313+0000_20260308T110627.053864Z.jpg model=gpt-5-nano
+2026-03-08 16:36:34,211 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:36:34,214 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110628_500313+0000_20260308T110627.053864Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:36:38,184 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:36:38,186 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110628_500313+0000_20260308T110627.053864Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:36:38,186 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110628_500313+0000_20260308T110627.053864Z.jpg err=Model output parse failed
+2026-03-08 16:36:38,187 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110627.053864Z
+2026-03-08 16:36:38,197 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110627.053864Z
+2026-03-08 16:36:45,124 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:36:45,124 INFO processing.frame_worker: Frame worker start frame_id=20260308T110642.054006Z
+2026-03-08 16:36:45,124 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110642.054006Z queue_size=0
+2026-03-08 16:36:45,132 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110643_508904+0000_20260308T110642.054006Z.jpg
+2026-03-08 16:36:45,138 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110643_508904+0000_20260308T110642.054006Z.jpg model=gpt-5-nano
+2026-03-08 16:36:50,084 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:36:50,085 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110643_508904+0000_20260308T110642.054006Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:36:53,775 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:36:53,776 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110643_508904+0000_20260308T110642.054006Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:36:53,776 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110643_508904+0000_20260308T110642.054006Z.jpg err=Model output parse failed
+2026-03-08 16:36:53,777 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110642.054006Z
+2026-03-08 16:36:53,815 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110642.054006Z
+2026-03-08 16:37:00,142 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:37:00,143 INFO processing.frame_worker: Frame worker start frame_id=20260308T110657.054138Z
+2026-03-08 16:37:00,143 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110657.054138Z queue_size=0
+2026-03-08 16:37:00,151 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110658_522207+0000_20260308T110657.054138Z.jpg
+2026-03-08 16:37:00,158 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110658_522207+0000_20260308T110657.054138Z.jpg model=gpt-5-nano
+2026-03-08 16:37:03,257 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:37:03,258 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110658_522207+0000_20260308T110657.054138Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:37:06,354 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:37:06,355 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110658_522207+0000_20260308T110657.054138Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:37:06,356 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110658_522207+0000_20260308T110657.054138Z.jpg err=Model output parse failed
+2026-03-08 16:37:06,357 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110657.054138Z
+2026-03-08 16:37:06,396 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110657.054138Z
+2026-03-08 16:37:15,172 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:37:15,172 INFO processing.frame_worker: Frame worker start frame_id=20260308T110712.054276Z
+2026-03-08 16:37:15,173 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110712.054276Z queue_size=0
+2026-03-08 16:37:15,212 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110713_517789+0000_20260308T110712.054276Z.jpg
+2026-03-08 16:37:15,220 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110713_517789+0000_20260308T110712.054276Z.jpg model=gpt-5-nano
+2026-03-08 16:37:18,136 INFO guardian_baby.main: Stopping backend...
+2026-03-08 16:37:18,236 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-08 16:37:18,847 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:37:18,849 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110713_517789+0000_20260308T110712.054276Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:37:21,246 INFO processing.frame_worker: Frame worker stopped.
+2026-03-08 16:37:21,248 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_110154.json
+2026-03-08 16:38:10,179 INFO processing.frame_worker: Frame worker started.
+2026-03-08 16:38:10,180 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-08 16:38:10,216 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-08 16:38:10,216 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-08 16:38:10,218 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-08 16:38:25,076 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:38:25,076 INFO processing.frame_worker: Frame worker start frame_id=20260308T110821.684087Z
+2026-03-08 16:38:25,076 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110821.684087Z queue_size=0
+2026-03-08 16:38:25,087 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110823_419647+0000_20260308T110821.684087Z.jpg
+2026-03-08 16:38:25,124 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110823_419647+0000_20260308T110821.684087Z.jpg model=gpt-5-nano
+2026-03-08 16:38:31,248 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:38:31,344 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110823_419647+0000_20260308T110821.684087Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:38:37,308 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:38:37,310 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110823_419647+0000_20260308T110821.684087Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:38:37,310 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110823_419647+0000_20260308T110821.684087Z.jpg err=Model output parse failed
+2026-03-08 16:38:37,311 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110821.684087Z
+2026-03-08 16:38:37,347 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110821.684087Z
+2026-03-08 16:38:39,750 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:38:39,751 INFO processing.frame_worker: Frame worker start frame_id=20260308T110836.684230Z
+2026-03-08 16:38:39,751 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110836.684230Z queue_size=0
+2026-03-08 16:38:39,760 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110838_132238+0000_20260308T110836.684230Z.jpg
+2026-03-08 16:38:39,763 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110838_132238+0000_20260308T110836.684230Z.jpg model=gpt-5-nano
+2026-03-08 16:38:42,322 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:38:42,324 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110838_132238+0000_20260308T110836.684230Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:38:45,289 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:38:45,298 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110838_132238+0000_20260308T110836.684230Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:38:45,298 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110838_132238+0000_20260308T110836.684230Z.jpg err=Model output parse failed
+2026-03-08 16:38:45,298 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110836.684230Z
+2026-03-08 16:38:45,335 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110836.684230Z
+2026-03-08 16:38:54,803 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:38:54,805 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110851.684380Z queue_size=1
+2026-03-08 16:38:54,806 INFO processing.frame_worker: Frame worker start frame_id=20260308T110851.684380Z
+2026-03-08 16:38:54,815 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110853_136195+0000_20260308T110851.684380Z.jpg
+2026-03-08 16:38:54,822 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110853_136195+0000_20260308T110851.684380Z.jpg model=gpt-5-nano
+2026-03-08 16:38:58,278 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:38:58,280 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110853_136195+0000_20260308T110851.684380Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:39:01,525 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:39:01,528 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110853_136195+0000_20260308T110851.684380Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:39:01,529 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110853_136195+0000_20260308T110851.684380Z.jpg err=Model output parse failed
+2026-03-08 16:39:01,529 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110851.684380Z
+2026-03-08 16:39:01,570 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110851.684380Z
+2026-03-08 16:39:10,077 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:39:10,077 INFO processing.frame_worker: Frame worker start frame_id=20260308T110906.684493Z
+2026-03-08 16:39:10,077 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T110906.684493Z queue_size=0
+2026-03-08 16:39:10,092 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T110908_428838+0000_20260308T110906.684493Z.jpg
+2026-03-08 16:39:10,098 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T110908_428838+0000_20260308T110906.684493Z.jpg model=gpt-5-nano
+2026-03-08 16:39:14,564 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:39:14,566 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110908_428838+0000_20260308T110906.684493Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:39:19,324 INFO guardian_baby.main: Stopping backend...
+2026-03-08 16:39:19,575 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:39:19,576 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T110908_428838+0000_20260308T110906.684493Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:39:19,578 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T110908_428838+0000_20260308T110906.684493Z.jpg err=Model output parse failed
+2026-03-08 16:39:19,580 INFO processing.frame_worker: Frame worker completed frame_id=20260308T110906.684493Z
+2026-03-08 16:39:19,613 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T110906.684493Z
+2026-03-08 16:39:20,182 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-08 16:39:20,649 INFO processing.frame_worker: Frame worker stopped.
+2026-03-08 16:39:20,651 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_110809.json
+2026-03-08 16:55:59,478 INFO processing.frame_worker: Frame worker started.
+2026-03-08 16:55:59,478 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-08 16:55:59,499 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-08 16:55:59,499 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-08 16:55:59,502 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-08 16:56:06,322 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:56:06,322 INFO processing.frame_worker: Frame worker start frame_id=20260308T112603.277850Z
+2026-03-08 16:56:06,322 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T112603.277850Z queue_size=0
+2026-03-08 16:56:06,327 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T112604_710235+0000_20260308T112603.277850Z.jpg
+2026-03-08 16:56:06,338 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T112604_710235+0000_20260308T112603.277850Z.jpg model=gpt-5-nano
+2026-03-08 16:56:09,156 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:56:09,214 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T112604_710235+0000_20260308T112603.277850Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:56:13,490 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:56:13,491 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T112604_710235+0000_20260308T112603.277850Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:56:13,491 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T112604_710235+0000_20260308T112603.277850Z.jpg err=Model output parse failed
+2026-03-08 16:56:13,491 INFO processing.frame_worker: Frame worker completed frame_id=20260308T112603.277850Z
+2026-03-08 16:56:13,498 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T112603.277850Z
+2026-03-08 16:56:21,381 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:56:21,381 INFO processing.frame_worker: Frame worker start frame_id=20260308T112618.278001Z
+2026-03-08 16:56:21,381 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T112618.278001Z queue_size=0
+2026-03-08 16:56:21,404 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T112619_760873+0000_20260308T112618.278001Z.jpg
+2026-03-08 16:56:21,408 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T112619_760873+0000_20260308T112618.278001Z.jpg model=gpt-5-nano
+2026-03-08 16:56:24,597 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:56:24,599 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T112619_760873+0000_20260308T112618.278001Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:56:27,702 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:56:27,704 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T112619_760873+0000_20260308T112618.278001Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:56:27,705 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T112619_760873+0000_20260308T112618.278001Z.jpg err=Model output parse failed
+2026-03-08 16:56:27,705 INFO processing.frame_worker: Frame worker completed frame_id=20260308T112618.278001Z
+2026-03-08 16:56:27,716 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T112618.278001Z
+2026-03-08 16:56:36,408 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 16:56:36,408 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T112633.278168Z queue_size=0
+2026-03-08 16:56:36,408 INFO processing.frame_worker: Frame worker start frame_id=20260308T112633.278168Z
+2026-03-08 16:56:36,423 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T112634_759896+0000_20260308T112633.278168Z.jpg
+2026-03-08 16:56:36,427 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T112634_759896+0000_20260308T112633.278168Z.jpg model=gpt-5-nano
+2026-03-08 16:56:39,832 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:56:39,833 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T112634_759896+0000_20260308T112633.278168Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 16:56:43,270 INFO guardian_baby.main: Stopping backend...
+2026-03-08 16:56:43,476 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-08 16:56:43,856 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 16:56:43,857 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T112634_759896+0000_20260308T112633.278168Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 16:56:43,858 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T112634_759896+0000_20260308T112633.278168Z.jpg err=Model output parse failed
+2026-03-08 16:56:43,858 INFO processing.frame_worker: Frame worker completed frame_id=20260308T112633.278168Z
+2026-03-08 16:56:43,865 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T112633.278168Z
+2026-03-08 16:56:43,870 INFO processing.frame_worker: Frame worker stopped.
+2026-03-08 16:56:43,871 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_112559.json
+2026-03-08 17:41:23,413 INFO processing.frame_worker: Frame worker started.
+2026-03-08 17:41:23,414 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-08 17:41:23,526 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-08 17:41:23,526 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-08 17:41:23,531 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-08 17:41:30,534 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 17:41:30,534 INFO processing.frame_worker: Frame worker start frame_id=20260308T121127.428473Z
+2026-03-08 17:41:30,534 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T121127.428473Z queue_size=0
+2026-03-08 17:41:30,540 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T121128_864366+0000_20260308T121127.428473Z.jpg
+2026-03-08 17:41:30,549 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T121128_864366+0000_20260308T121127.428473Z.jpg model=gpt-5-nano
+2026-03-08 17:41:34,614 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 17:41:34,667 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T121128_864366+0000_20260308T121127.428473Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 17:41:38,518 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 17:41:38,519 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T121128_864366+0000_20260308T121127.428473Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 17:41:38,520 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T121128_864366+0000_20260308T121127.428473Z.jpg err=Model output parse failed
+2026-03-08 17:41:38,520 INFO processing.frame_worker: Frame worker completed frame_id=20260308T121127.428473Z
+2026-03-08 17:41:38,529 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T121127.428473Z
+2026-03-08 17:41:38,529 INFO guardian_baby.main: Frame analyzed 20260308T121127.428473Z baby_visible=False activity=unknown risk=unknown desc='A frame was captured, but detailed visual interpretation is unavailable.'
+2026-03-08 17:41:45,908 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 17:41:45,908 INFO processing.frame_worker: Frame worker start frame_id=20260308T121142.428624Z
+2026-03-08 17:41:45,908 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T121142.428624Z queue_size=0
+2026-03-08 17:41:45,920 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T121144_262147+0000_20260308T121142.428624Z.jpg
+2026-03-08 17:41:45,923 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T121144_262147+0000_20260308T121142.428624Z.jpg model=gpt-5-nano
+2026-03-08 17:41:50,865 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 17:41:50,867 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T121144_262147+0000_20260308T121142.428624Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 17:41:54,421 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 17:41:54,422 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T121144_262147+0000_20260308T121142.428624Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 17:41:54,422 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T121144_262147+0000_20260308T121142.428624Z.jpg err=Model output parse failed
+2026-03-08 17:41:54,422 INFO processing.frame_worker: Frame worker completed frame_id=20260308T121142.428624Z
+2026-03-08 17:41:54,432 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T121142.428624Z
+2026-03-08 17:41:54,432 INFO guardian_baby.main: Frame analyzed 20260308T121142.428624Z baby_visible=False activity=unknown risk=unknown desc='A frame was captured, but detailed visual interpretation is unavailable.'
+2026-03-08 17:42:00,868 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 17:42:00,868 INFO processing.frame_worker: Frame worker start frame_id=20260308T121157.428770Z
+2026-03-08 17:42:00,868 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T121157.428770Z queue_size=0
+2026-03-08 17:42:00,879 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T121159_230022+0000_20260308T121157.428770Z.jpg
+2026-03-08 17:42:00,882 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T121159_230022+0000_20260308T121157.428770Z.jpg model=gpt-5-nano
+2026-03-08 17:42:04,389 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 17:42:04,390 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T121159_230022+0000_20260308T121157.428770Z.jpg attempt=1 err=Model output parse failed
+2026-03-08 17:42:10,726 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 17:42:10,727 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T121159_230022+0000_20260308T121157.428770Z.jpg attempt=2 err=Model output parse failed
+2026-03-08 17:42:10,727 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T121159_230022+0000_20260308T121157.428770Z.jpg err=Model output parse failed
+2026-03-08 17:42:10,727 INFO processing.frame_worker: Frame worker completed frame_id=20260308T121157.428770Z
+2026-03-08 17:42:10,735 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T121157.428770Z
+2026-03-08 17:42:10,735 INFO guardian_baby.main: Frame analyzed 20260308T121157.428770Z baby_visible=False activity=unknown risk=unknown desc='A frame was captured, but detailed visual interpretation is unavailable.'
+2026-03-08 17:42:14,460 INFO guardian_baby.main: Stopping backend...
+2026-03-08 17:42:14,989 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-08 17:42:15,318 INFO processing.frame_worker: Frame worker stopped.
+2026-03-08 17:42:15,319 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_121123.json
+2026-03-08 21:15:04,144 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 21:15:04,194 INFO app.openai_healthcheck: OpenAI healthcheck success: Hello there.
+2026-03-08 21:15:04,332 INFO processing.frame_worker: Frame worker started.
+2026-03-08 21:15:04,332 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-08 21:15:04,362 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-08 21:15:04,362 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-08 21:15:04,363 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-08 21:15:48,822 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 21:15:48,822 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T154545.409604Z queue_size=0
+2026-03-08 21:15:48,822 INFO processing.frame_worker: Frame worker start frame_id=20260308T154545.409604Z
+2026-03-08 21:15:48,853 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T154547_209411+0000_20260308T154545.409604Z.jpg
+2026-03-08 21:15:48,872 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T154547_209411+0000_20260308T154545.409604Z.jpg model=gpt-5-nano
+2026-03-08 21:15:53,019 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 21:15:53,020 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T154547_209411+0000_20260308T154545.409604Z.jpg attempt=1 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    raise ValueError("Empty output_text from model")
+ValueError: Empty output_text from model
+2026-03-08 21:15:56,365 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 21:15:56,367 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T154547_209411+0000_20260308T154545.409604Z.jpg attempt=2 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    raise ValueError("Empty output_text from model")
+ValueError: Empty output_text from model
+2026-03-08 21:15:56,367 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T154547_209411+0000_20260308T154545.409604Z.jpg err=Empty output_text from model
+2026-03-08 21:15:56,368 INFO processing.frame_worker: Frame worker completed frame_id=20260308T154545.409604Z
+2026-03-08 21:15:56,378 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T154545.409604Z
+2026-03-08 21:15:56,378 INFO guardian_baby.main: Frame analyzed 20260308T154545.409604Z baby_visible=False activity=unknown risk=unknown desc='A frame was captured, but detailed visual interpretation is unavailable.'
+2026-03-08 22:36:36,615 INFO processing.frame_worker: Frame worker started.
+2026-03-08 22:36:36,615 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-08 22:36:36,693 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-08 22:36:36,693 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-08 22:36:36,702 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-08 22:36:44,926 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 22:36:44,926 INFO processing.frame_worker: Frame worker start frame_id=20260308T170641.645476Z
+2026-03-08 22:36:44,927 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T170641.645476Z queue_size=0
+2026-03-08 22:36:44,946 INFO processing.frame_worker: Frame worker start frame_id=20260308T170641.645476Z
+2026-03-08 22:36:44,942 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 22:36:44,957 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T170641.645476Z queue_size=0
+2026-03-08 22:36:44,959 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T170643_379358+0000_20260308T170641.645476Z.jpg
+2026-03-08 22:36:44,974 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T170643_379358+0000_20260308T170641.645476Z.jpg
+2026-03-08 22:36:44,981 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T170643_379358+0000_20260308T170641.645476Z.jpg model=gpt-4.1-mini
+2026-03-08 22:36:45,037 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T170643_379358+0000_20260308T170641.645476Z.jpg model=gpt-5-nano
+2026-03-08 22:36:49,420 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:36:49,478 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T170643_379358+0000_20260308T170641.645476Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The frame shows a close-up view of a curtain with a leaf pattern and a portion of a person's hand in front of it. The ba
+2026-03-08 22:36:49,479 INFO processing.frame_worker: Frame worker completed frame_id=20260308T170641.645476Z
+2026-03-08 22:36:49,486 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T170641.645476Z
+2026-03-08 22:36:49,486 INFO guardian_baby.main: Frame analyzed 20260308T170641.645476Z baby_visible=False activity=no_baby_visible risk=low desc='The frame shows a close-up view of a curtain with a leaf pattern and a portion of a person's hand in front of it. The background includes a '
+2026-03-08 22:36:53,327 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:36:53,338 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T170643_379358+0000_20260308T170641.645476Z.jpg attempt=1 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    client=client,
+ValueError: Empty output_text from model
+2026-03-08 22:36:56,932 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:36:56,934 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T170643_379358+0000_20260308T170641.645476Z.jpg attempt=2 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    client=client,
+ValueError: Empty output_text from model
+2026-03-08 22:36:56,934 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T170643_379358+0000_20260308T170641.645476Z.jpg err=Empty output_text from model
+2026-03-08 22:36:56,934 INFO processing.frame_worker: Frame worker completed frame_id=20260308T170641.645476Z
+2026-03-08 22:36:56,941 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T170641.645476Z
+2026-03-08 22:36:56,941 INFO guardian_baby.main: Frame analyzed 20260308T170641.645476Z baby_visible=False activity=unknown risk=unknown desc='A frame was captured, but detailed visual interpretation is unavailable.'
+2026-03-08 22:36:59,784 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 22:36:59,784 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 22:36:59,784 INFO processing.frame_worker: Frame worker start frame_id=20260308T170656.645621Z
+2026-03-08 22:36:59,784 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T170656.645621Z queue_size=0
+2026-03-08 22:36:59,784 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T170656.645621Z queue_size=0
+2026-03-08 22:36:59,791 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T170658_216974+0000_20260308T170656.645621Z.jpg
+2026-03-08 22:36:59,790 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T170658_216974+0000_20260308T170656.645621Z.jpg
+2026-03-08 22:36:59,794 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T170658_216974+0000_20260308T170656.645621Z.jpg model=gpt-5-nano
+2026-03-08 22:36:59,795 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T170658_216974+0000_20260308T170656.645621Z.jpg model=gpt-4.1-mini
+2026-03-08 22:37:04,676 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:37:04,678 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T170658_216974+0000_20260308T170656.645621Z.jpg baby_visible=True activity=calm risk=low desc=The image shows a close-up view of a child wearing a purple sweater with a colorful butterfly on it. The child is smilin
+2026-03-08 22:37:04,678 INFO processing.frame_worker: Frame worker completed frame_id=20260308T170656.645621Z
+2026-03-08 22:37:04,689 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T170656.645621Z
+2026-03-08 22:37:04,690 INFO guardian_baby.main: Frame analyzed 20260308T170656.645621Z baby_visible=True activity=calm risk=low desc='The image shows a close-up view of a child wearing a purple sweater with a colorful butterfly on it. The child is smiling and looking slight'
+2026-03-08 22:37:04,912 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:37:04,914 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T170658_216974+0000_20260308T170656.645621Z.jpg attempt=1 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    client=client,
+ValueError: Empty output_text from model
+2026-03-08 22:37:08,253 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:37:08,254 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T170658_216974+0000_20260308T170656.645621Z.jpg attempt=2 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    client=client,
+ValueError: Empty output_text from model
+2026-03-08 22:37:08,254 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T170658_216974+0000_20260308T170656.645621Z.jpg err=Empty output_text from model
+2026-03-08 22:37:08,255 INFO processing.frame_worker: Frame worker completed frame_id=20260308T170656.645621Z
+2026-03-08 22:37:08,261 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T170656.645621Z
+2026-03-08 22:37:08,261 INFO guardian_baby.main: Frame analyzed 20260308T170656.645621Z baby_visible=False activity=unknown risk=unknown desc='A frame was captured, but detailed visual interpretation is unavailable.'
+2026-03-08 22:39:05,901 INFO guardian_baby.main: Stopping backend...
+2026-03-08 22:39:06,822 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-08 22:39:07,024 INFO processing.frame_worker: Frame worker stopped.
+2026-03-08 22:39:07,025 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_170636.json
+2026-03-08 22:39:29,591 INFO processing.frame_worker: Frame worker started.
+2026-03-08 22:39:29,591 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-08 22:39:29,615 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-08 22:39:29,616 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-08 22:39:29,622 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-08 22:41:19,608 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 22:41:19,608 INFO processing.frame_worker: Frame worker start frame_id=20260308T171116.396223Z
+2026-03-08 22:41:19,608 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T171116.396223Z queue_size=0
+2026-03-08 22:41:19,609 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 22:41:19,609 INFO processing.frame_worker: Frame worker start frame_id=20260308T171116.396223Z
+2026-03-08 22:41:19,610 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T171116.396223Z queue_size=0
+2026-03-08 22:41:19,616 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T171118_062647+0000_20260308T171116.396223Z.jpg
+2026-03-08 22:41:19,616 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T171118_062647+0000_20260308T171116.396223Z.jpg
+2026-03-08 22:41:19,620 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T171118_062647+0000_20260308T171116.396223Z.jpg model=gpt-5-nano
+2026-03-08 22:41:19,626 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T171118_062647+0000_20260308T171116.396223Z.jpg model=gpt-4.1-mini
+2026-03-08 22:41:24,227 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:41:24,229 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T171118_062647+0000_20260308T171116.396223Z.jpg attempt=1 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    client=client,
+ValueError: Empty output_text from model
+2026-03-08 22:41:25,975 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:41:26,031 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T171118_062647+0000_20260308T171116.396223Z.jpg baby_visible=True activity=sleeping risk=low desc=The image shows a blurry photograph displayed on a digital screen of a child lying down, seemingly indoors. The screen i
+2026-03-08 22:41:26,031 INFO processing.frame_worker: Frame worker completed frame_id=20260308T171116.396223Z
+2026-03-08 22:41:26,036 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T171116.396223Z
+2026-03-08 22:41:26,037 INFO guardian_baby.main: Frame analyzed 20260308T171116.396223Z baby_visible=True activity=sleeping risk=low desc='The image shows a blurry photograph displayed on a digital screen of a child lying down, seemingly indoors. The screen is part of a device w'
+2026-03-08 22:41:27,731 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:41:27,733 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T171118_062647+0000_20260308T171116.396223Z.jpg attempt=2 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    client=client,
+ValueError: Empty output_text from model
+2026-03-08 22:41:27,734 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T171118_062647+0000_20260308T171116.396223Z.jpg err=Empty output_text from model
+2026-03-08 22:41:27,735 INFO processing.frame_worker: Frame worker completed frame_id=20260308T171116.396223Z
+2026-03-08 22:41:27,743 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T171116.396223Z
+2026-03-08 22:41:27,743 INFO guardian_baby.main: Frame analyzed 20260308T171116.396223Z baby_visible=False activity=unknown risk=unknown desc='A frame was captured, but detailed visual interpretation is unavailable.'
+2026-03-08 22:41:34,667 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 22:41:34,667 INFO processing.frame_worker: Frame worker start frame_id=20260308T171131.396384Z
+2026-03-08 22:41:34,667 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T171131.396384Z queue_size=0
+2026-03-08 22:41:34,674 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T171133_124845+0000_20260308T171131.396384Z.jpg
+2026-03-08 22:41:34,677 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T171133_124845+0000_20260308T171131.396384Z.jpg model=gpt-5-nano
+2026-03-08 22:41:34,683 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 22:41:34,683 INFO processing.frame_worker: Frame worker start frame_id=20260308T171131.396384Z
+2026-03-08 22:41:34,684 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T171131.396384Z queue_size=0
+2026-03-08 22:41:34,695 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T171133_124845+0000_20260308T171131.396384Z.jpg
+2026-03-08 22:41:34,699 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T171133_124845+0000_20260308T171131.396384Z.jpg model=gpt-4.1-mini
+2026-03-08 22:41:38,486 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:41:38,488 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T171133_124845+0000_20260308T171131.396384Z.jpg attempt=1 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    client=client,
+ValueError: Empty output_text from model
+2026-03-08 22:41:39,562 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:41:39,564 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T171133_124845+0000_20260308T171131.396384Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image shows a laptop displaying a photo of a baby lying on a bed covered with a purple blanket. The baby is not visi
+2026-03-08 22:41:39,564 INFO processing.frame_worker: Frame worker completed frame_id=20260308T171131.396384Z
+2026-03-08 22:41:39,575 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T171131.396384Z
+2026-03-08 22:41:39,576 INFO guardian_baby.main: Frame analyzed 20260308T171131.396384Z baby_visible=False activity=no_baby_visible risk=low desc='The image shows a laptop displaying a photo of a baby lying on a bed covered with a purple blanket. The baby is not visible in the current f'
+2026-03-08 22:41:42,589 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:41:42,590 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T171133_124845+0000_20260308T171131.396384Z.jpg attempt=2 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    client=client,
+ValueError: Empty output_text from model
+2026-03-08 22:41:42,591 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T171133_124845+0000_20260308T171131.396384Z.jpg err=Empty output_text from model
+2026-03-08 22:41:42,591 INFO processing.frame_worker: Frame worker completed frame_id=20260308T171131.396384Z
+2026-03-08 22:41:42,602 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T171131.396384Z
+2026-03-08 22:41:42,602 INFO guardian_baby.main: Frame analyzed 20260308T171131.396384Z baby_visible=False activity=unknown risk=unknown desc='A frame was captured, but detailed visual interpretation is unavailable.'
+2026-03-08 22:41:49,599 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 22:41:49,599 INFO processing.frame_worker: Frame worker start frame_id=20260308T171146.396519Z
+2026-03-08 22:41:49,600 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T171146.396519Z queue_size=0
+2026-03-08 22:41:49,605 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-08 22:41:49,605 INFO processing.frame_worker: Frame worker start frame_id=20260308T171146.396519Z
+2026-03-08 22:41:49,607 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T171146.396519Z queue_size=0
+2026-03-08 22:41:49,608 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T171148_026740+0000_20260308T171146.396519Z.jpg
+2026-03-08 22:41:49,612 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T171148_026740+0000_20260308T171146.396519Z.jpg model=gpt-5-nano
+2026-03-08 22:41:49,614 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T171148_026740+0000_20260308T171146.396519Z.jpg
+2026-03-08 22:41:49,618 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T171148_026740+0000_20260308T171146.396519Z.jpg model=gpt-4.1-mini
+2026-03-08 22:41:53,603 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:41:53,604 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T171148_026740+0000_20260308T171146.396519Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image shows a computer screen displaying a photo of a smiling baby wearing a purple sweater. In front of the screen,
+2026-03-08 22:41:53,605 INFO processing.frame_worker: Frame worker completed frame_id=20260308T171146.396519Z
+2026-03-08 22:41:53,618 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T171146.396519Z
+2026-03-08 22:41:53,618 INFO guardian_baby.main: Frame analyzed 20260308T171146.396519Z baby_visible=False activity=no_baby_visible risk=low desc='The image shows a computer screen displaying a photo of a smiling baby wearing a purple sweater. In front of the screen, a person is holding'
+2026-03-08 22:41:54,597 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:41:54,599 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T171148_026740+0000_20260308T171146.396519Z.jpg attempt=1 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    client=client,
+ValueError: Empty output_text from model
+2026-03-08 22:41:58,961 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-08 22:41:58,962 WARNING agent.frame_llm_processor: Frame LLM failed frame=data\frames\current_batch\20260308T171148_026740+0000_20260308T171146.396519Z.jpg attempt=2 err=Empty output_text from model
+Traceback (most recent call last):
+  File "D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\agent\frame_llm_processor.py", line 215, in process_frame
+    client=client,
+ValueError: Empty output_text from model
+2026-03-08 22:41:58,963 WARNING agent.frame_llm_processor: Frame analysis fallback frame=data\frames\current_batch\20260308T171148_026740+0000_20260308T171146.396519Z.jpg err=Empty output_text from model
+2026-03-08 22:41:58,963 INFO processing.frame_worker: Frame worker completed frame_id=20260308T171146.396519Z
+2026-03-08 22:41:58,974 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T171146.396519Z
+2026-03-08 22:41:58,975 INFO guardian_baby.main: Frame analyzed 20260308T171146.396519Z baby_visible=False activity=unknown risk=unknown desc='A frame was captured, but detailed visual interpretation is unavailable.'
+2026-03-08 22:43:09,037 INFO guardian_baby.main: Stopping backend...
+2026-03-08 22:43:09,422 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-08 22:43:09,873 INFO processing.frame_worker: Frame worker stopped.
+2026-03-08 22:43:09,875 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_170929.json
+2026-03-08 23:25:25,998 ERROR transport.mqtt_subscriber: failed to receive on socket: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-08 23:25:26,007 WARNING transport.mqtt_subscriber: MQTT disconnected unexpectedly rc=7. Reconnect will be attempted.
+2026-03-08 23:25:27,031 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-09 00:10:26,447 ERROR transport.mqtt_subscriber: failed to receive on socket: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-09 00:10:26,449 WARNING transport.mqtt_subscriber: MQTT disconnected unexpectedly rc=7. Reconnect will be attempted.
+2026-03-09 00:10:27,506 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-09 00:20:33,429 INFO processing.frame_worker: Frame worker started.
+2026-03-09 00:20:33,430 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-09 00:20:33,462 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-09 00:20:33,463 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-09 00:20:33,468 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-09 00:20:42,568 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 00:20:42,569 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T185039.314377Z queue_size=1
+2026-03-09 00:20:42,569 INFO processing.frame_worker: Frame worker start frame_id=20260308T185039.314377Z
+2026-03-09 00:20:42,582 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T185041_066893+0000_20260308T185039.314377Z.jpg
+2026-03-09 00:20:42,608 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T185041_066893+0000_20260308T185039.314377Z.jpg model=gpt-4.1-mini
+2026-03-09 00:20:47,590 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 00:20:47,652 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T185041_066893+0000_20260308T185039.314377Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The frame is completely dark with no visible elements or baby detected.
+2026-03-09 00:20:47,652 INFO processing.frame_worker: Frame worker completed frame_id=20260308T185039.314377Z
+2026-03-09 00:20:47,657 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T185039.314377Z
+2026-03-09 00:20:47,657 INFO guardian_baby.main: Frame analyzed 20260308T185039.314377Z baby_visible=False activity=no_baby_visible risk=low desc='The frame is completely dark with no visible elements or baby detected.'
+2026-03-09 00:20:57,372 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 00:20:57,372 INFO processing.frame_worker: Frame worker start frame_id=20260308T185054.314527Z
+2026-03-09 00:20:57,372 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T185054.314527Z queue_size=0
+2026-03-09 00:20:57,378 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T185055_854654+0000_20260308T185054.314527Z.jpg
+2026-03-09 00:20:57,381 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T185055_854654+0000_20260308T185054.314527Z.jpg model=gpt-4.1-mini
+2026-03-09 00:21:02,132 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 00:21:02,133 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T185055_854654+0000_20260308T185054.314527Z.jpg baby_visible=True activity=sitting risk=low desc=The frame shows a blurry image of a young child with two small ponytails sitting near a bed or couch, holding a yellow a
+2026-03-09 00:21:02,133 INFO processing.frame_worker: Frame worker completed frame_id=20260308T185054.314527Z
+2026-03-09 00:21:02,140 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T185054.314527Z
+2026-03-09 00:21:02,140 INFO guardian_baby.main: Frame analyzed 20260308T185054.314527Z baby_visible=True activity=sitting risk=low desc='The frame shows a blurry image of a young child with two small ponytails sitting near a bed or couch, holding a yellow and blue object. Ther'
+2026-03-09 00:21:12,315 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 00:21:12,316 INFO processing.frame_worker: Frame worker start frame_id=20260308T185109.314684Z
+2026-03-09 00:21:12,316 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T185109.314684Z queue_size=0
+2026-03-09 00:21:12,322 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T185110_804748+0000_20260308T185109.314684Z.jpg
+2026-03-09 00:21:12,325 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T185110_804748+0000_20260308T185109.314684Z.jpg model=gpt-4.1-mini
+2026-03-09 00:21:15,946 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 00:21:15,948 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T185110_804748+0000_20260308T185109.314684Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image shows a close-up of a seemingly cluttered area with a light-colored blanket or fabric and a dark reddish surfa
+2026-03-09 00:21:15,948 INFO processing.frame_worker: Frame worker completed frame_id=20260308T185109.314684Z
+2026-03-09 00:21:15,957 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T185109.314684Z
+2026-03-09 00:21:15,957 INFO guardian_baby.main: Frame analyzed 20260308T185109.314684Z baby_visible=False activity=no_baby_visible risk=low desc='The image shows a close-up of a seemingly cluttered area with a light-colored blanket or fabric and a dark reddish surface, possibly furnitu'
+2026-03-09 00:21:27,460 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 00:21:27,461 INFO processing.frame_worker: Frame worker start frame_id=20260308T185124.314829Z
+2026-03-09 00:21:27,461 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T185124.314829Z queue_size=0
+2026-03-09 00:21:27,467 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T185125_953504+0000_20260308T185124.314829Z.jpg
+2026-03-09 00:21:27,470 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T185125_953504+0000_20260308T185124.314829Z.jpg model=gpt-4.1-mini
+2026-03-09 00:21:30,940 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 00:21:30,941 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T185125_953504+0000_20260308T185124.314829Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image shows a room with a red couch and some blankets or bedding on one side. There is no visible baby in the frame.
+2026-03-09 00:21:30,942 INFO processing.frame_worker: Frame worker completed frame_id=20260308T185124.314829Z
+2026-03-09 00:21:30,951 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T185124.314829Z
+2026-03-09 00:21:30,951 INFO guardian_baby.main: Frame analyzed 20260308T185124.314829Z baby_visible=False activity=no_baby_visible risk=low desc='The image shows a room with a red couch and some blankets or bedding on one side. There is no visible baby in the frame.'
+2026-03-09 00:21:42,542 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 00:21:42,542 INFO processing.frame_worker: Frame worker start frame_id=20260308T185139.314958Z
+2026-03-09 00:21:42,542 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T185139.314958Z queue_size=0
+2026-03-09 00:21:42,548 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T185141_032567+0000_20260308T185139.314958Z.jpg
+2026-03-09 00:21:42,553 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T185141_032567+0000_20260308T185139.314958Z.jpg model=gpt-4.1-mini
+2026-03-09 00:21:46,407 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 00:21:46,409 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T185141_032567+0000_20260308T185139.314958Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image is blurry and does not clearly show any baby or specific activity. There are some colors and shapes that might
+2026-03-09 00:21:46,409 INFO processing.frame_worker: Frame worker completed frame_id=20260308T185139.314958Z
+2026-03-09 00:21:46,419 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T185139.314958Z
+2026-03-09 00:21:46,420 INFO guardian_baby.main: Frame analyzed 20260308T185139.314958Z baby_visible=False activity=no_baby_visible risk=low desc='The image is blurry and does not clearly show any baby or specific activity. There are some colors and shapes that might suggest clothing, b'
+2026-03-09 00:21:57,562 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 00:21:57,562 INFO processing.frame_worker: Frame worker start frame_id=20260308T185154.315097Z
+2026-03-09 00:21:57,562 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T185154.315097Z queue_size=0
+2026-03-09 00:21:57,570 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T185156_030421+0000_20260308T185154.315097Z.jpg
+2026-03-09 00:21:57,573 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T185156_030421+0000_20260308T185154.315097Z.jpg model=gpt-4.1-mini
+2026-03-09 00:22:03,218 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 00:22:03,220 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T185156_030421+0000_20260308T185154.315097Z.jpg baby_visible=True activity=calm risk=low desc=The image shows a young child with a small ponytail, wearing a blue patterned outfit, sitting or lying down on a bed or 
+2026-03-09 00:22:03,220 INFO processing.frame_worker: Frame worker completed frame_id=20260308T185154.315097Z
+2026-03-09 00:22:03,226 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T185154.315097Z
+2026-03-09 00:22:03,226 INFO guardian_baby.main: Frame analyzed 20260308T185154.315097Z baby_visible=True activity=calm risk=low desc='The image shows a young child with a small ponytail, wearing a blue patterned outfit, sitting or lying down on a bed or cushioned surface. T'
+2026-03-09 00:22:12,498 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 00:22:12,499 INFO processing.frame_worker: Frame worker start frame_id=20260308T185209.315226Z
+2026-03-09 00:22:12,499 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T185209.315226Z queue_size=0
+2026-03-09 00:22:12,504 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T185210_986280+0000_20260308T185209.315226Z.jpg
+2026-03-09 00:22:12,508 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T185210_986280+0000_20260308T185209.315226Z.jpg model=gpt-4.1-mini
+2026-03-09 00:22:17,058 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 00:22:17,059 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T185210_986280+0000_20260308T185209.315226Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image is blurry and unclear, showing indistinct shapes and colors that do not form a recognizable scene.
+2026-03-09 00:22:17,059 INFO processing.frame_worker: Frame worker completed frame_id=20260308T185209.315226Z
+2026-03-09 00:22:17,069 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T185209.315226Z
+2026-03-09 00:22:17,069 INFO guardian_baby.main: Frame analyzed 20260308T185209.315226Z baby_visible=False activity=no_baby_visible risk=low desc='The image is blurry and unclear, showing indistinct shapes and colors that do not form a recognizable scene.'
+2026-03-09 00:22:31,549 INFO guardian_baby.main: Stopping backend...
+2026-03-09 00:22:31,676 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-09 00:22:31,848 INFO processing.frame_worker: Frame worker stopped.
+2026-03-09 00:22:31,850 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_185033.json
+2026-03-09 01:22:42,242 INFO processing.frame_worker: Frame worker started.
+2026-03-09 01:22:42,271 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-09 01:22:42,291 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-09 01:22:42,291 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-09 01:22:42,292 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-09 01:23:39,233 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 01:23:39,234 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T195337.365666Z queue_size=0
+2026-03-09 01:23:39,233 INFO processing.frame_worker: Frame worker start frame_id=20260308T195337.365666Z
+2026-03-09 01:23:39,287 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T195339_152362+0000_20260308T195337.365666Z.jpg
+2026-03-09 01:23:39,334 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T195339_152362+0000_20260308T195337.365666Z.jpg model=gpt-4.1-mini
+2026-03-09 01:23:44,968 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 01:23:45,166 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T195339_152362+0000_20260308T195337.365666Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The frame is completely dark, with no visible objects or baby identifiable.
+2026-03-09 01:23:45,166 INFO processing.frame_worker: Frame worker completed frame_id=20260308T195337.365666Z
+2026-03-09 01:23:45,175 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T195337.365666Z
+2026-03-09 01:23:45,175 INFO guardian_baby.main: Frame analyzed 20260308T195337.365666Z baby_visible=False activity=no_baby_visible risk=low desc='The frame is completely dark, with no visible objects or baby identifiable.'
+2026-03-09 01:23:54,321 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 01:23:54,324 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T195352.365839Z queue_size=0
+2026-03-09 01:23:54,324 INFO processing.frame_worker: Frame worker start frame_id=20260308T195352.365839Z
+2026-03-09 01:23:54,368 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T195354_160998+0000_20260308T195352.365839Z.jpg
+2026-03-09 01:23:54,388 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T195354_160998+0000_20260308T195352.365839Z.jpg model=gpt-4.1-mini
+2026-03-09 01:23:59,816 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 01:23:59,820 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T195354_160998+0000_20260308T195352.365839Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The frame is very dark with no visible details or objects. No baby or other subjects can be seen.
+2026-03-09 01:23:59,821 INFO processing.frame_worker: Frame worker completed frame_id=20260308T195352.365839Z
+2026-03-09 01:23:59,859 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T195352.365839Z
+2026-03-09 01:23:59,860 INFO guardian_baby.main: Frame analyzed 20260308T195352.365839Z baby_visible=False activity=no_baby_visible risk=low desc='The frame is very dark with no visible details or objects. No baby or other subjects can be seen.'
+2026-03-09 01:27:20,466 INFO guardian_baby.main: Stopping backend...
+2026-03-09 01:27:21,359 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-09 01:27:21,828 INFO processing.frame_worker: Frame worker stopped.
+2026-03-09 01:27:21,830 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_195242.json
+2026-03-09 02:09:44,181 INFO processing.frame_worker: Frame worker started.
+2026-03-09 02:09:44,183 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-09 02:09:44,190 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-09 02:09:44,190 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-09 02:09:44,193 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-09 02:11:31,203 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:11:31,203 INFO processing.frame_worker: Frame worker start frame_id=20260308T204129.462780Z
+2026-03-09 02:11:31,204 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T204129.462780Z queue_size=0
+2026-03-09 02:11:31,233 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T204131_135370+0000_20260308T204129.462780Z.jpg
+2026-03-09 02:11:31,248 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T204131_135370+0000_20260308T204129.462780Z.jpg model=gpt-4.1-mini
+2026-03-09 02:11:37,683 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:11:37,747 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T204131_135370+0000_20260308T204129.462780Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image shows a close-up of an electronic screen displaying a photo of a baby, but there is no actual baby physically 
+2026-03-09 02:11:37,747 INFO processing.frame_worker: Frame worker completed frame_id=20260308T204129.462780Z
+2026-03-09 02:11:37,752 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T204129.462780Z
+2026-03-09 02:11:37,752 INFO guardian_baby.main: Frame analyzed 20260308T204129.462780Z baby_visible=False activity=no_baby_visible risk=low desc='The image shows a close-up of an electronic screen displaying a photo of a baby, but there is no actual baby physically present in the frame'
+2026-03-09 02:11:46,123 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:11:46,123 INFO processing.frame_worker: Frame worker start frame_id=20260308T204144.462914Z
+2026-03-09 02:11:46,123 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T204144.462914Z queue_size=0
+2026-03-09 02:11:46,131 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T204146_051847+0000_20260308T204144.462914Z.jpg
+2026-03-09 02:11:46,135 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T204146_051847+0000_20260308T204144.462914Z.jpg model=gpt-4.1-mini
+2026-03-09 02:11:50,872 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:11:50,873 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T204146_051847+0000_20260308T204144.462914Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The frame shows a blurry image of a screen displaying a photo of a young child wearing a purple sweater. No live baby is
+2026-03-09 02:11:50,874 INFO processing.frame_worker: Frame worker completed frame_id=20260308T204144.462914Z
+2026-03-09 02:11:50,883 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T204144.462914Z
+2026-03-09 02:11:50,884 INFO guardian_baby.main: Frame analyzed 20260308T204144.462914Z baby_visible=False activity=no_baby_visible risk=low desc='The frame shows a blurry image of a screen displaying a photo of a young child wearing a purple sweater. No live baby is visible in the actu'
+2026-03-09 02:12:01,082 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:12:01,082 INFO processing.frame_worker: Frame worker start frame_id=20260308T204159.463073Z
+2026-03-09 02:12:01,083 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T204159.463073Z queue_size=0
+2026-03-09 02:12:01,089 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T204201_029079+0000_20260308T204159.463073Z.jpg
+2026-03-09 02:12:01,093 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T204201_029079+0000_20260308T204159.463073Z.jpg model=gpt-4.1-mini
+2026-03-09 02:12:05,406 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:12:05,407 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T204201_029079+0000_20260308T204159.463073Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The frame shows a blurry image of a computer screen displaying a photo of a baby wearing a purple sweater, but no real b
+2026-03-09 02:12:05,407 INFO processing.frame_worker: Frame worker completed frame_id=20260308T204159.463073Z
+2026-03-09 02:12:05,411 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T204159.463073Z
+2026-03-09 02:12:05,412 INFO guardian_baby.main: Frame analyzed 20260308T204159.463073Z baby_visible=False activity=no_baby_visible risk=low desc='The frame shows a blurry image of a computer screen displaying a photo of a baby wearing a purple sweater, but no real baby is visible in th'
+2026-03-09 02:12:16,140 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:12:16,141 INFO processing.frame_worker: Frame worker start frame_id=20260308T204214.463223Z
+2026-03-09 02:12:16,141 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T204214.463223Z queue_size=0
+2026-03-09 02:12:16,148 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T204216_067587+0000_20260308T204214.463223Z.jpg
+2026-03-09 02:12:16,151 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T204216_067587+0000_20260308T204214.463223Z.jpg model=gpt-4.1-mini
+2026-03-09 02:12:20,708 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:12:20,710 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T204216_067587+0000_20260308T204214.463223Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image shows a blurred screen with a photo of a baby on it. There is no actual baby physically visible in the frame.
+2026-03-09 02:12:20,710 INFO processing.frame_worker: Frame worker completed frame_id=20260308T204214.463223Z
+2026-03-09 02:12:20,714 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T204214.463223Z
+2026-03-09 02:12:20,714 INFO guardian_baby.main: Frame analyzed 20260308T204214.463223Z baby_visible=False activity=no_baby_visible risk=low desc='The image shows a blurred screen with a photo of a baby on it. There is no actual baby physically visible in the frame.'
+2026-03-09 02:12:31,085 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:12:31,085 INFO processing.frame_worker: Frame worker start frame_id=20260308T204229.463369Z
+2026-03-09 02:12:31,085 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T204229.463369Z queue_size=0
+2026-03-09 02:12:31,094 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T204231_019601+0000_20260308T204229.463369Z.jpg
+2026-03-09 02:12:31,099 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T204231_019601+0000_20260308T204229.463369Z.jpg model=gpt-4.1-mini
+2026-03-09 02:12:34,895 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:12:34,896 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T204231_019601+0000_20260308T204229.463369Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image shows a blurry screen displaying a picture of a baby on a monitor or digital device. The baby is not physicall
+2026-03-09 02:12:34,896 INFO processing.frame_worker: Frame worker completed frame_id=20260308T204229.463369Z
+2026-03-09 02:12:34,908 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T204229.463369Z
+2026-03-09 02:12:34,908 INFO guardian_baby.main: Frame analyzed 20260308T204229.463369Z baby_visible=False activity=no_baby_visible risk=low desc='The image shows a blurry screen displaying a picture of a baby on a monitor or digital device. The baby is not physically present in the sce'
+2026-03-09 02:12:46,167 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:12:46,167 INFO processing.frame_worker: Frame worker start frame_id=20260308T204244.463500Z
+2026-03-09 02:12:46,167 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T204244.463500Z queue_size=0
+2026-03-09 02:12:46,175 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T204246_114338+0000_20260308T204244.463500Z.jpg
+2026-03-09 02:12:46,179 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T204246_114338+0000_20260308T204244.463500Z.jpg model=gpt-4.1-mini
+2026-03-09 02:12:49,292 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:12:49,293 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T204246_114338+0000_20260308T204244.463500Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The frame shows a close-up of an adult male's face with a mustache and an earbud. The background appears to be an indoor
+2026-03-09 02:12:49,294 INFO processing.frame_worker: Frame worker completed frame_id=20260308T204244.463500Z
+2026-03-09 02:12:49,301 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T204244.463500Z
+2026-03-09 02:12:49,301 INFO guardian_baby.main: Frame analyzed 20260308T204244.463500Z baby_visible=False activity=no_baby_visible risk=low desc='The frame shows a close-up of an adult male's face with a mustache and an earbud. The background appears to be an indoor setting with a whit'
+2026-03-09 02:13:01,374 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:13:01,374 INFO processing.frame_worker: Frame worker start frame_id=20260308T204259.463630Z
+2026-03-09 02:13:01,374 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T204259.463630Z queue_size=0
+2026-03-09 02:13:01,381 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T204301_290103+0000_20260308T204259.463630Z.jpg
+2026-03-09 02:13:01,384 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T204301_290103+0000_20260308T204259.463630Z.jpg model=gpt-4.1-mini
+2026-03-09 02:13:05,586 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:13:05,587 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T204301_290103+0000_20260308T204259.463630Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image is very blurry with predominant blue and gray tones, and no distinct shapes or objects can be identified clear
+2026-03-09 02:13:05,587 INFO processing.frame_worker: Frame worker completed frame_id=20260308T204259.463630Z
+2026-03-09 02:13:05,591 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T204259.463630Z
+2026-03-09 02:13:05,591 INFO guardian_baby.main: Frame analyzed 20260308T204259.463630Z baby_visible=False activity=no_baby_visible risk=low desc='The image is very blurry with predominant blue and gray tones, and no distinct shapes or objects can be identified clearly.'
+2026-03-09 02:21:15,876 INFO guardian_baby.main: Stopping backend...
+2026-03-09 02:21:16,643 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-09 02:21:16,815 INFO processing.frame_worker: Frame worker stopped.
+2026-03-09 02:21:16,816 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_203944.json
+2026-03-09 02:50:44,211 INFO processing.frame_worker: Frame worker started.
+2026-03-09 02:50:44,211 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-09 02:50:44,228 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-09 02:50:44,228 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-09 02:50:44,240 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-09 02:50:49,746 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:50:49,746 INFO processing.frame_worker: Frame worker start frame_id=20260308T212048.085853Z
+2026-03-09 02:50:49,747 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T212048.085853Z queue_size=0
+2026-03-09 02:50:49,775 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T212049_713728+0000_20260308T212048.085853Z.jpg
+2026-03-09 02:50:49,791 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T212049_713728+0000_20260308T212048.085853Z.jpg model=gpt-4.1-mini
+2026-03-09 02:50:54,354 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:50:54,417 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T212049_713728+0000_20260308T212048.085853Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image shows a blurred photo of a baby displayed on a device screen, possibly a monitor or a tablet, with a glare fro
+2026-03-09 02:50:54,418 INFO processing.frame_worker: Frame worker completed frame_id=20260308T212048.085853Z
+2026-03-09 02:50:54,423 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T212048.085853Z
+2026-03-09 02:50:54,423 INFO guardian_baby.main: Frame analyzed 20260308T212048.085853Z baby_visible=False activity=no_baby_visible risk=low desc='The image shows a blurred photo of a baby displayed on a device screen, possibly a monitor or a tablet, with a glare from a light source on '
+2026-03-09 02:51:04,673 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:51:04,674 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T212103.086017Z queue_size=0
+2026-03-09 02:51:04,673 INFO processing.frame_worker: Frame worker start frame_id=20260308T212103.086017Z
+2026-03-09 02:51:04,680 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T212104_641674+0000_20260308T212103.086017Z.jpg
+2026-03-09 02:51:04,684 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T212104_641674+0000_20260308T212103.086017Z.jpg model=gpt-4.1-mini
+2026-03-09 02:51:08,606 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:51:08,608 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T212104_641674+0000_20260308T212103.086017Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The frame shows a blurred image of a screen displaying a video or picture of a baby in a purple outfit, but the baby its
+2026-03-09 02:51:08,608 INFO processing.frame_worker: Frame worker completed frame_id=20260308T212103.086017Z
+2026-03-09 02:51:08,614 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T212103.086017Z
+2026-03-09 02:51:08,614 INFO guardian_baby.main: Frame analyzed 20260308T212103.086017Z baby_visible=False activity=no_baby_visible risk=low desc='The frame shows a blurred image of a screen displaying a video or picture of a baby in a purple outfit, but the baby itself is not visible i'
+2026-03-09 02:51:23,773 INFO guardian_baby.main: Stopping backend...
+2026-03-09 02:51:23,809 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-09 02:51:23,855 INFO processing.frame_worker: Frame worker stopped.
+2026-03-09 02:51:23,855 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_212044.json
+2026-03-09 02:58:09,354 INFO processing.frame_worker: Frame worker started.
+2026-03-09 02:58:09,355 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-09 02:58:09,386 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-09 02:58:09,386 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-09 02:58:09,388 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-09 02:58:23,637 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:58:23,637 INFO processing.frame_worker: Frame worker start frame_id=20260308T212822.250071Z
+2026-03-09 02:58:23,637 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T212822.250071Z queue_size=0
+2026-03-09 02:58:23,643 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T212823_623960+0000_20260308T212822.250071Z.jpg
+2026-03-09 02:58:23,653 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T212823_623960+0000_20260308T212822.250071Z.jpg model=gpt-4.1-mini
+2026-03-09 02:58:29,420 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:58:29,470 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T212823_623960+0000_20260308T212822.250071Z.jpg baby_visible=True activity=sitting risk=medium desc=A baby is sitting in a blue inflatable pool float in a swimming pool, smiling and looking happy. The background shows th
+2026-03-09 02:58:29,470 INFO processing.frame_worker: Frame worker completed frame_id=20260308T212822.250071Z
+2026-03-09 02:58:29,478 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T212822.250071Z
+2026-03-09 02:58:29,478 INFO guardian_baby.main: Frame analyzed 20260308T212822.250071Z baby_visible=True activity=sitting risk=medium desc='A baby is sitting in a blue inflatable pool float in a swimming pool, smiling and looking happy. The background shows the pool edge and some'
+2026-03-09 02:58:29,479 INFO notifications.dispatcher: DRY-RUN notification: {'timestamp': '2026-03-08T21:28:23.623960+00:00', 'severity': 'medium', 'event_type': 'safety_risk', 'risk_score': None, 'caregiver_message': 'Ensure constant adult supervision while the baby is in or near water. Use appropriate safety measures such as life jackets or swim diapers, and never leave the baby unattended.', 'explanation': 'A baby is sitting in a blue inflatable pool float in a swimming pool, smiling and looking happy. The background shows the pool edge and some blurred greenery.', 'technical_summary': 'The baby is in a pool, which poses a potential drowning hazard despite being on a float.', 'frame_id': '20260308T212822.250071Z', 'message': 'Ensure constant adult supervision while the baby is in or near water. Use appropriate safety measures such as life jackets or swim diapers, and never leave the baby unattended.'}
+2026-03-09 02:58:38,740 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 02:58:38,740 INFO processing.frame_worker: Frame worker start frame_id=20260308T212837.250238Z
+2026-03-09 02:58:38,740 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T212837.250238Z queue_size=0
+2026-03-09 02:58:38,747 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T212838_724853+0000_20260308T212837.250238Z.jpg
+2026-03-09 02:58:38,751 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T212838_724853+0000_20260308T212837.250238Z.jpg model=gpt-4.1-mini
+2026-03-09 02:58:43,436 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 02:58:43,437 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T212838_724853+0000_20260308T212837.250238Z.jpg baby_visible=True activity=sitting risk=medium desc=A baby is sitting on a blue inflatable pool toy shaped like a dolphin in a swimming pool. The baby is smiling and appear
+2026-03-09 02:58:43,438 INFO processing.frame_worker: Frame worker completed frame_id=20260308T212837.250238Z
+2026-03-09 02:58:43,447 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T212837.250238Z
+2026-03-09 02:58:43,447 INFO guardian_baby.main: Frame analyzed 20260308T212837.250238Z baby_visible=True activity=sitting risk=medium desc='A baby is sitting on a blue inflatable pool toy shaped like a dolphin in a swimming pool. The baby is smiling and appears happy and engaged '
+2026-03-09 03:07:25,478 INFO guardian_baby.main: Stopping backend...
+2026-03-09 03:07:25,957 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-09 03:07:26,255 INFO processing.frame_worker: Frame worker stopped.
+2026-03-09 03:07:26,260 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_212809.json
+2026-03-09 03:12:11,315 INFO processing.frame_worker: Frame worker started.
+2026-03-09 03:12:11,315 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-09 03:12:11,338 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-09 03:12:11,338 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-09 03:12:11,345 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-09 03:12:21,520 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 03:12:21,520 INFO processing.frame_worker: Frame worker start frame_id=20260308T214220.021606Z
+2026-03-09 03:12:21,520 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T214220.021606Z queue_size=0
+2026-03-09 03:12:21,526 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T214221_478216+0000_20260308T214220.021606Z.jpg
+2026-03-09 03:12:21,536 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T214221_478216+0000_20260308T214220.021606Z.jpg model=gpt-4.1-mini
+2026-03-09 03:12:25,991 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 03:12:26,045 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T214221_478216+0000_20260308T214220.021606Z.jpg baby_visible=True activity=sitting risk=medium desc=A baby is in a swimming pool sitting inside a blue inflatable float shaped like a dolphin, smiling and raising both hand
+2026-03-09 03:12:26,045 INFO processing.frame_worker: Frame worker completed frame_id=20260308T214220.021606Z
+2026-03-09 03:12:26,049 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T214220.021606Z
+2026-03-09 03:12:26,049 INFO guardian_baby.main: Frame analyzed 20260308T214220.021606Z baby_visible=True activity=sitting risk=medium desc='A baby is in a swimming pool sitting inside a blue inflatable float shaped like a dolphin, smiling and raising both hands.'
+2026-03-09 03:12:26,050 INFO notifications.dispatcher: DRY-RUN notification: {'timestamp': '2026-03-08T21:42:21.478216+00:00', 'severity': 'medium', 'event_type': 'safety_risk', 'risk_score': None, 'caregiver_message': 'Ensure constant adult supervision of the baby in the pool to prevent drowning or accidents.', 'explanation': 'A baby is in a swimming pool sitting inside a blue inflatable float shaped like a dolphin, smiling and raising both hands.', 'technical_summary': 'The baby is in a pool environment with water, which poses a drowning hazard if not closely supervised.', 'frame_id': '20260308T214220.021606Z', 'message': 'Ensure constant adult supervision of the baby in the pool to prevent drowning or accidents.'}
+2026-03-09 03:12:36,523 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 03:12:36,523 INFO processing.frame_worker: Frame worker start frame_id=20260308T214235.021752Z
+2026-03-09 03:12:36,523 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T214235.021752Z queue_size=0
+2026-03-09 03:12:36,530 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T214236_494568+0000_20260308T214235.021752Z.jpg
+2026-03-09 03:12:36,534 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T214236_494568+0000_20260308T214235.021752Z.jpg model=gpt-4.1-mini
+2026-03-09 03:12:41,664 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 03:12:41,665 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T214236_494568+0000_20260308T214235.021752Z.jpg baby_visible=True activity=calm risk=low desc=The frame shows a baby partially visible in what appears to be a small blue inflatable pool with a yellow rim. The baby 
+2026-03-09 03:12:41,665 INFO processing.frame_worker: Frame worker completed frame_id=20260308T214235.021752Z
+2026-03-09 03:12:41,674 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T214235.021752Z
+2026-03-09 03:12:41,674 INFO guardian_baby.main: Frame analyzed 20260308T214235.021752Z baby_visible=True activity=calm risk=low desc='The frame shows a baby partially visible in what appears to be a small blue inflatable pool with a yellow rim. The baby has wet hair, sugges'
+2026-03-09 03:12:51,496 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 03:12:51,496 INFO processing.frame_worker: Frame worker start frame_id=20260308T214250.021901Z
+2026-03-09 03:12:51,497 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T214250.021901Z queue_size=0
+2026-03-09 03:12:51,503 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T214251_477511+0000_20260308T214250.021901Z.jpg
+2026-03-09 03:12:51,507 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T214251_477511+0000_20260308T214250.021901Z.jpg model=gpt-4.1-mini
+2026-03-09 03:12:54,264 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 03:12:54,266 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T214251_477511+0000_20260308T214250.021901Z.jpg baby_visible=True activity=calm risk=low desc=The image shows a close-up of a smiling baby, likely displayed on a screen. The baby appears calm and happy with no visi
+2026-03-09 03:12:54,266 INFO processing.frame_worker: Frame worker completed frame_id=20260308T214250.021901Z
+2026-03-09 03:12:54,275 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T214250.021901Z
+2026-03-09 03:12:54,276 INFO guardian_baby.main: Frame analyzed 20260308T214250.021901Z baby_visible=True activity=calm risk=low desc='The image shows a close-up of a smiling baby, likely displayed on a screen. The baby appears calm and happy with no visible signs of distres'
+2026-03-09 03:18:52,624 INFO guardian_baby.main: Stopping backend...
+2026-03-09 03:18:53,521 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-09 03:18:54,020 INFO processing.frame_worker: Frame worker stopped.
+2026-03-09 03:18:54,026 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_214211.json
+2026-03-09 03:23:29,323 INFO processing.frame_worker: Frame worker started.
+2026-03-09 03:23:29,324 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-09 03:26:03,904 INFO processing.frame_worker: Frame worker started.
+2026-03-09 03:26:03,904 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-09 03:27:32,127 INFO processing.frame_worker: Frame worker started.
+2026-03-09 03:27:32,127 INFO transport.mqtt_subscriber: Connecting MQTT subscriber host=192.168.1.24 port=1883
+2026-03-09 03:27:32,192 INFO guardian_baby.main: MQTT frame subscriber started.
+2026-03-09 03:27:32,192 INFO guardian_baby.main: GuardianBaby backend started. Press Ctrl+C to stop.
+2026-03-09 03:27:32,195 INFO transport.mqtt_subscriber: MQTT connected; subscribing topics.
+2026-03-09 03:27:36,325 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 03:27:36,325 INFO processing.frame_worker: Frame worker start frame_id=20260308T215734.636873Z
+2026-03-09 03:27:36,325 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T215734.636873Z queue_size=0
+2026-03-09 03:27:36,331 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T215736_329589+0000_20260308T215734.636873Z.jpg
+2026-03-09 03:27:36,341 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T215736_329589+0000_20260308T215734.636873Z.jpg model=gpt-4.1-mini
+2026-03-09 03:27:39,891 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 03:27:39,943 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T215736_329589+0000_20260308T215734.636873Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The frame is mostly blurred or out of focus, showing no distinct objects or persons.
+2026-03-09 03:27:39,943 INFO processing.frame_worker: Frame worker completed frame_id=20260308T215734.636873Z
+2026-03-09 03:27:39,948 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T215734.636873Z
+2026-03-09 03:27:39,948 INFO guardian_baby.main: Frame analyzed 20260308T215734.636873Z baby_visible=False activity=no_baby_visible risk=low desc='The frame is mostly blurred or out of focus, showing no distinct objects or persons.'
+2026-03-09 03:27:51,207 INFO processing.frame_queue: Frame queue enqueue size=1
+2026-03-09 03:27:51,207 INFO processing.frame_worker: Frame worker start frame_id=20260308T215749.637014Z
+2026-03-09 03:27:51,207 INFO transport.mqtt_subscriber: Frame packet queued frame_id=20260308T215749.637014Z queue_size=0
+2026-03-09 03:27:51,214 INFO processing.frame_store: Frame saved path=data\frames\current_batch\20260308T215751_179497+0000_20260308T215749.637014Z.jpg
+2026-03-09 03:27:51,217 INFO agent.frame_llm_processor: Frame sent to OpenAI frame=data\frames\current_batch\20260308T215751_179497+0000_20260308T215749.637014Z.jpg model=gpt-4.1-mini
+2026-03-09 03:27:55,811 INFO httpx: HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-03-09 03:27:55,812 INFO agent.frame_llm_processor: Frame analyzed frame=data\frames\current_batch\20260308T215751_179497+0000_20260308T215749.637014Z.jpg baby_visible=False activity=no_baby_visible risk=low desc=The image shows a close-up view of a laptop screen displaying a webpage with text and interface elements. There is no ba
+2026-03-09 03:27:55,812 INFO processing.frame_worker: Frame worker completed frame_id=20260308T215749.637014Z
+2026-03-09 03:27:55,820 INFO guardian_baby.main: Frame LLM analysis persisted frame_id=20260308T215749.637014Z
+2026-03-09 03:27:55,820 INFO guardian_baby.main: Frame analyzed 20260308T215749.637014Z baby_visible=False activity=no_baby_visible risk=low desc='The image shows a close-up view of a laptop screen displaying a webpage with text and interface elements. There is no baby or child visible '
+2026-03-09 03:27:58,833 INFO guardian_baby.main: Stopping backend...
+2026-03-09 03:27:59,301 INFO transport.mqtt_subscriber: MQTT disconnected cleanly.
+2026-03-09 03:27:59,392 INFO processing.frame_worker: Frame worker stopped.
+2026-03-09 03:27:59,393 INFO guardian_baby.main: Session summary written: D:\SRM_College_GenAI_Lectures\Child_Monitor_App\guardian_baby\data\summaries\sess_20260308_215731.json

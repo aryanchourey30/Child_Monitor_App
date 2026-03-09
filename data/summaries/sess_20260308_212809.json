@@ -1,0 +1,30 @@
+{
+  "session_id": "sess_20260308_212809",
+  "start_time": "2026-03-08T21:28:09.207248+00:00",
+  "end_time": "2026-03-08T21:37:26.256064+00:00",
+  "duration_seconds": 557,
+  "frames_processed": 2,
+  "subject_detected": true,
+  "events": [
+    {
+      "event_type": "safety_risk",
+      "timestamp": "2026-03-08T21:28:23.623960+00:00",
+      "risk_score": 0.0,
+      "details": "The baby is in a pool, which poses a potential drowning hazard despite being on a float."
+    },
+    {
+      "event_type": "safety_risk",
+      "timestamp": "2026-03-08T21:28:38.724853+00:00",
+      "risk_score": 0.0,
+      "details": "The baby is near water and on an inflatable toy, which presents a drowning hazard without close supervision."
+    }
+  ],
+  "dominant_state": "sitting",
+  "final_risk_level": "medium",
+  "max_risk_score": 0.0,
+  "explanation": "Detected 2 elevated-risk events. Highest risk score 0.00 (medium).",
+  "snapshot_paths": [
+    "data\\frames\\current_batch\\20260308T212823_623960+0000_20260308T212822.250071Z.jpg",
+    "data\\frames\\current_batch\\20260308T212838_724853+0000_20260308T212837.250238Z.jpg"
+  ]
+}

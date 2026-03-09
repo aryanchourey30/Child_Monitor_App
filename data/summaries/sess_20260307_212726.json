@@ -1,0 +1,14 @@
+{
+  "session_id": "sess_20260307_212726",
+  "start_time": "2026-03-07T21:27:26.369263+00:00",
+  "end_time": "2026-03-07T21:27:31.515888+00:00",
+  "duration_seconds": 5,
+  "frames_processed": 0,
+  "subject_detected": false,
+  "events": [],
+  "dominant_state": "unknown",
+  "final_risk_level": "low",
+  "max_risk_score": 0.0,
+  "explanation": "No subject reliably detected; no elevated hazards observed.",
+  "snapshot_paths": []
+}

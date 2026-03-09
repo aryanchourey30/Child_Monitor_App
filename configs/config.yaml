@@ -1,0 +1,83 @@
+app:
+  name: GuardianBaby
+  environment: dev
+  log_level: INFO
+  ingest_mode: mqtt
+
+camera:
+  source: 0
+  fps: 10
+  width: 640
+  height: 480
+  reconnect_attempts: 5
+  reconnect_delay_sec: 1.0
+  frame_skip: 0
+  duration_seconds: 20
+
+detector:
+  backend: mock
+  confidence_threshold: 0.4
+  model_path: ""
+
+risk:
+  alert_threshold: 0.5
+  medium_threshold: 0.4
+  high_threshold: 0.7
+  critical_threshold: 0.9
+  fall_weight: 0.35
+  wet_floor_weight: 0.2
+  fire_smoke_weight: 0.35
+  ingestion_weight: 0.1
+  zone_weight: 0.25
+
+notifications:
+  enabled: true
+  dry_run: true
+  cooldown_sec: 30
+  channels: ["telegram", "email", "webhook"]
+
+db:
+  path: data/events/guardian_baby.db
+
+outputs:
+  summaries_dir: data/summaries
+  logs_dir: data/logs
+
+debug:
+  raw_frame_logging: false
+  detector_overlay: false
+  graph_trace_dump: true
+  verbose_reasoning_log: true
+  dry_run_notifications: true
+
+openai:
+  model: gpt-4.1-mini
+  timeout_seconds: 8.0
+  enable_summarization: true
+  max_retries: 2
+
+frame_llm:
+  storage_dir: data/frames/current_batch
+  batch_size: 240
+  model: gpt-4.1-mini
+  timeout_seconds: 10
+  max_retries: 2
+  enable_analysis: true
+
+processing:
+  queue_max_size: 200
+  queue_overflow_strategy: drop_oldest
+
+mqtt:
+  host: 192.168.1.24
+  port: 1883
+  username: ""
+  password: ""
+  keepalive: 60
+  pair_ttl_seconds: 3.0
+  max_pending_pairs: 500
+  topics:
+    frame_jpeg: guardianbaby/frame/jpeg
+    frame_meta: guardianbaby/frame/meta
+    heartbeat: guardianbaby/device/heartbeat
+    video_meta: guardianbaby/video/meta

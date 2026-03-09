@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime/generated backend data
+data/logs/
+data/frames/
+data/snapshots/
+data/summaries/
+data/events/*.db
+data/events/*.sqlite*
+*.log
+
+# Frontend build/deps
+frontline/node_modules/
+frontline/dist/
+frontline/.env
+frontline/.env.local
+frontline/tsconfig.tsbuildinfo
+
+# temp cache folders
+pytest-cache-files-*/

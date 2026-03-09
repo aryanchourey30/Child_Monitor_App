@@ -1,0 +1,17 @@
+zones:
+  - name: safe_play
+    type: safe
+    polygon: [[20, 20], [620, 20], [620, 460], [20, 460]]
+    severity_weight: 0.1
+  - name: bed_edge
+    type: edge
+    polygon: [[100, 80], [540, 80], [540, 130], [100, 130]]
+    severity_weight: 0.9
+  - name: socket_area
+    type: electric
+    polygon: [[560, 180], [635, 180], [635, 280], [560, 280]]
+    severity_weight: 0.8
+  - name: wet_floor_candidate
+    type: slippery
+    polygon: [[220, 300], [520, 300], [520, 470], [220, 470]]
+    severity_weight: 0.7

@@ -1,0 +1,14 @@
+{
+  "session_id": "sess_20260308_212044",
+  "start_time": "2026-03-08T21:20:44.073365+00:00",
+  "end_time": "2026-03-08T21:21:23.855059+00:00",
+  "duration_seconds": 39,
+  "frames_processed": 2,
+  "subject_detected": false,
+  "events": [],
+  "dominant_state": "no_baby_visible",
+  "final_risk_level": "low",
+  "max_risk_score": 0.0,
+  "explanation": "No subject reliably detected; no elevated hazards observed.",
+  "snapshot_paths": []
+}
