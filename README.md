@@ -34,7 +34,7 @@ uvicorn app.api:app --reload
 - Laptop backend subscribes and processes all downstream logic locally.
 - Backend startup automatically starts MQTT consumption and frame processing.
 
--Pipeline modules:
+Pipeline modules:
 - `transport/mqtt_subscriber.py`: subscribes to `guardianbaby/frame/meta` and `guardianbaby/frame/jpeg`, correlates packets, pushes queue items.
 - `processing/frame_queue.py`: FIFO queue with configurable overflow strategy.
 - `processing/frame_store.py`: saves every frame and keeps rolling latest 240 files.
